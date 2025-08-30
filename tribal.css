@@ -1,0 +1,247 @@
+
+h1{
+    font-size: 70px;
+    line-height: 64px;
+    color: black;
+   
+}
+p2{
+    font-size: 46px;
+    line-height: 54px;
+    color: black;
+}
+p8{
+    font-size: 50px;
+    color: black;
+}
+p{
+    font-size: 25px;
+    color: black;
+}
+h6{
+    font-size: 15px;
+    color: black;
+}
+.section-p1{
+    padding: 40px 80px;
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    box-shadow: 0 5px 15px #16a085;
+}
+#header_bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#header_bar li{
+    list-style: none;
+    padding: 0 20px;
+
+}
+#header_bar li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    transition: 0.3s ease;
+}
+#header_bar li a:hover{
+    color: aqua;
+}
+#hero{
+    background-image: url("img/ad.jpg");
+    size-adjust: 200px;
+    height: 100vh;
+    width: 90%;
+    background-position: right 0 left 10% top 50%;
+    background-size: cover;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+
+#feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap\;
+}
+#feature .fe-box {
+    width: 150px;
+    text-align: center;
+    padding: 20px 15px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 15px;
+}
+#feature .fe-box:hover{
+    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+}
+#feature .fe-box img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+#feature .fe-box h6{
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: #9e0835;
+    background-color: #16a085;
+}
+#product1{
+    text-align: center;
+}
+#product1 .pro{
+    width: 25%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid black;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px black;
+}
+#product1 .pro img{
+    width: 100%;
+    border-radius: 20px;
+}
+#product1 .pro .des{
+    text-align: start;
+    padding: 10px 0;
+}
+#product1 .pro .des span{
+    color: rgb(165, 5, 98);
+
+}
+#product1 .pro .des i{
+    font-size: 12px;
+    color: gold;
+}
+#product1 .pro .cart{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    color: #088178;
+    cursor: pointer;
+}
+#product1 .pro .des h5{
+    font-size: 20px;
+
+}
+#product1 .pro_container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.section-m1{
+    margin: 40px 0;
+}
+#banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(img/banner2.jpg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    
+}
+button.normal{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    background-color: beige;
+    cursor: pointer;
+
+}
+#newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(img/banner3.jpg);
+}
+footer{
+    display: flex;
+    justify-content: space-between;  
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+/* Selected items display */
+.display {
+  background: #3eb489;
+  color: white;
+  text-align: left;
+  padding: 12px 16px;
+  font-family: monospace;
+  font-size: 16px;
+  margin: 20px auto;
+  border: 2px solid #3eb489;
+  border-radius: 6px;
+  max-width: 600px;   /* limit width */
+  white-space: normal; /* allow wrapping */
+  word-wrap: break-word;
+  box-shadow: 0 0 12px #3eb489(0, 255, 0, 0.4);
+}
+
+/* Highlight 'Selected' and 'Total' separately */
+.display strong {
+  color: #ffeb3b; /* yellow highlight */
+}
+
+/* Pay button - make it nice */
+.pay-btn {
+  background: #3eb489;
+  border: none;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 6px;
+  display: block;
+  margin: 10px auto; /* center button */
+  width: auto;       /* not full width */
+  box-shadow: 0 4px 10px #3eb489(0,0,0,0.2);
+}
+
+.pay-btn:hover {
+  background: #3eb489;
+  transform: scale(1.05);
+}
+
+/* Tray box */
+.tray {
+  background: #3d4606;
+  height: auto;
+  min-height: 60px;
+  text-align: center;
+  padding: 12px;
+  margin-top: 15px;
+  border: 2px solid #3d4606;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #cae00d;
+}
+
+
+        
+    
+
+
